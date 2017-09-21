@@ -1,6 +1,5 @@
 # ORIE 4741 Project Proposal: Financial Aid Assitance
 Members: Cean Park (ckp42), Tiffany Shih (ts568)
-
 September 22, 2017
 
 ## Background
