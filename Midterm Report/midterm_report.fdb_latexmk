@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1509117078 "midterm_report.tex" "midterm_report.pdf" "midterm_report" 1509117080
+["pdflatex"] 1509117291 "midterm_report.tex" "midterm_report.pdf" "midterm_report" 1509117292
   "./avgincome_vs_award.png" 1509083289 85929 856af30820803d54836367be83afef54 ""
   "./financial_status.png" 1509081996 58647 04de5a3d846bc9deaed1af1dd59fc5f4 ""
   "./sector_group.png" 1509083293 131236 511c483b60b4d9e514b55be27ab0f951 ""
@@ -185,10 +185,10 @@
   "/usr/local/texlive/2015/texmf.cnf" 1432479636 577 0d611272082f3cdb8e80e09a3c69cf07 ""
   "avgincome_vs_award.png" 1509083289 85929 856af30820803d54836367be83afef54 ""
   "financial_status.png" 1509081996 58647 04de5a3d846bc9deaed1af1dd59fc5f4 ""
-  "midterm_report.aux" 1509117079 1182 004051f098e38b182b353e655f099b41 ""
-  "midterm_report.tex" 1509117077 11487 01926704caf5f51ff02adaefba12b405 ""
+  "midterm_report.aux" 1509117292 1184 e061eab0f9679a7cf1d2c7b2acf8ebb3 ""
+  "midterm_report.tex" 1509117289 11489 1d376abee60d734fd5514e0d313029ed ""
   "sector_group.png" 1509083293 131236 511c483b60b4d9e514b55be27ab0f951 ""
   (generated)
-  "midterm_report.pdf"
   "midterm_report.aux"
   "midterm_report.log"
+  "midterm_report.pdf"

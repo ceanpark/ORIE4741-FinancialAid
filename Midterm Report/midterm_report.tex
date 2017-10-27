@@ -88,7 +88,7 @@ In addition to these visualizations, a couple notable summary statistics include
 Our preliminary analysis consisted of a few supervised models to forecast our prediction performance at a high level. To facilitate this, we partitioned our cleaned data set into training (60\%), validation (20\%), and test (20\%) sets by applying Scikitlearn's $training\_test\_split$ function twice.
 
 
-\subsection{Linear regression}
+\subsection{Linear regression and model effectiveness}
 We first ran a simple linear regression with our cleaned, numerical data set (with offset) on all 42 features. The objective of the linear regression was to find the minimizer of $f(w) = ||y - Xw||^2$, where $y \in \mathbb{R}^{d}$ was our desired output data, $X \in \mathbb{R}^{n \times d}$ our input data with $n$ examples across $d$ features, and $w \in \mathbb{R}^{d}$.
 
 The 42 coefficients of $w$ obtained via least-squares regression were both positive and negative and large in magnitude, ranging from a value of -24,350.4 as our offset term all the way to 4005.3 for the binary feature representing Award Schedule E. Since our predictor $y$ ranges from 0 to \$5,000, we decided to measure error via mean absolute error (MAE) and mean absolute percentage error (MAPD). The MAE and MAPD on our training, validation, and test sets are the two measurements we plan to use to test the effectiveness of our models developed moving forward.
@@ -97,7 +97,7 @@ Across the training, validation, and test sets, MAE and MAPD values were similar
 
 It may be worth considering running a regression without a few features, e.g. excluding year since the calendar year is not necessarily applicant-specific information.
 
-\subsection{Overfitting, underfitting, and model effectiveness}
+\subsection{Overfitting and underfitting}
 By including both a training and validation set, we hope to utilize $k$-fold cross-validation in order to detect whether our model is over/underfitting. To remedy underfitting, we will provide more features to our input data $X$, either in the form of additional feature transformations or simply constructing new columns based on existing ones. On the other hand, to remedy overfitting, we want to utilize regularizers in our models and determine optimal feature selection such that we obtain a well-fitted model.
 
 
